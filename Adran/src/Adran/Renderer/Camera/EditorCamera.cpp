@@ -76,6 +76,7 @@ namespace Adran {
 		}
 
 		UpdateView();
+		AR_ERROR("EditorCameraµÄZ:{0}", m_Position.z);
 	}
 
 	void EditorCamera::OnEvent(Event& e)
